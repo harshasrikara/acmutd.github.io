@@ -11,6 +11,7 @@
     integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
   <link rel="stylesheet" href="global-css/custom.css">
   <link rel="stylesheet" href="global-css/font-awesome.min.css">
+  <script src="https://kit.fontawesome.com/35fb6f3e9a.js" crossorigin="anonymous"></script>
   <title>ACM at UTD</title>
 </head>
 
@@ -18,7 +19,7 @@
 
   <!-- NavBar -->
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-    <a class="navbar-brand" href="#">
+    <a class="navbar-brand" href="/index.html">
       <img src="/global-assets/icon/acm-light.png" width="45" height="45" alt="">
     </a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
@@ -28,7 +29,7 @@
     <div class="collapse navbar-collapse" id="navbarNavDropdown">
       <ul class="navbar-nav">
         <li class="nav-item active">
-          <a class="nav-link" href="#">Welcome<span class="sr-only">(current)</span></a>
+          <a class="nav-link" href="/index.html">Welcome<span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown"
@@ -128,65 +129,53 @@
   </div>
 
   <!-- Division Cards -->
-  <h1 class="text-center mt-1 mb-5">What do we do?</h1>
-  <div class="container">
-    <div class="row">
-      <div class="col">
-        <div class="card">
-          <img src="/global-assets/icon/education.png" class="card-img-top" alt="ACM Education">
-          <div class="card-body">
+  <div class="container-fluid">
+    <h1 class="text-center">What do we do</h1>
+
+    <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4 row-cols-lg-5 m-2">
+
+      <div class="col mb-4">
+        <div class="card border-info">
+          <img src="/global-assets/icon/education.png" class="card-img-top" alt="...">
+          <div class="card-body link-overlay">
             <h5 class="card-title">Education</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
-              content.</p>
-            <a href="/education" class="stretched-link"></a>
+            <p>Some text goes here</p>
           </div>
         </div>
       </div>
-
-      <div class="col">
-        <div class="card">
-          <img src="/global-assets/icon/ignite.png" class="card-img-top" alt="ACM Education">
-          <div class="card-body">
-            <h5 class="card-title">Ignite</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
-              content.</p>
-            <a href="/ignite" class="stretched-link"></a>
-          </div>
-        </div>
-      </div>
-
-      <div class="col">
-        <div class="card">
-          <img src="/global-assets/icon/projects.png" class="card-img-top" alt="ACM Education">
+      <div class="col mb-4">
+        <div class="card border-info">
+          <img src="/global-assets/icon/projects.png" class="card-img-top" alt="...">
           <div class="card-body">
             <h5 class="card-title">Projects</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
-              content.</p>
-            <a href="/projects" class="stretched-link"></a>
+            <p>Some text goes here</p>
           </div>
         </div>
       </div>
-
-      <div class="col">
-        <div class="card">
-          <img src="/global-assets/icon/labs.png" class="card-img-top" alt="ACM Education">
+      <div class="col mb-4">
+        <div class="card border-info">
+          <img src="/global-assets/icon/ignite.png" class="card-img-top" alt="...">
           <div class="card-body">
-            <h5 class="card-title">Labs</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
-              content.</p>
-            <a href="/labs" class="stretched-link"></a>
+            <h5 class="card-title">Ignite</h5>
+            <p>Some text goes here</p>
           </div>
         </div>
       </div>
-
-      <div class="col">
-        <div class="card">
-          <img src="/global-assets/icon/hackutd.svg" class="card-img-top" alt="ACM Education">
+      <div class="col mb-4">
+        <div class="card border-info">
+          <img src="/global-assets/icon/hackutd.svg" class="card-img-top" alt="...">
           <div class="card-body">
             <h5 class="card-title">HackUTD</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
-              content.</p>
-            <a href="/hackutd" class="stretched-link"></a>
+            <p>Some text goes here</p>
+          </div>
+        </div>
+      </div>
+      <div class="col mb-4">
+        <div class="card border-info">
+          <img src="/global-assets/icon/labs.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Labs</h5>
+            <p>Some text goes here</p>
           </div>
         </div>
       </div>
@@ -194,9 +183,9 @@
   </div>
 
   <h1 class="text-center my-5">Featured Event</h1>
-  <div class="container">
+  <div class="container-fluid">
     <div class="row">
-      <div class="col text-center">
+      <div class="col text-center mb-5">
         <img src="global-assets/events/interview.png" width="400">
       </div>
       <div class="col">
@@ -205,9 +194,9 @@
         <p>What to do after the Intern Fair? Learn how to ace those technical interviews! From arrays to heaps, we'll be
           covering a range of coding challenges each week to help you prepare for your next big interview!</p>
       </div>
-
     </div>
   </div>
+
 
   <!-- Optional JavaScript -->
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
