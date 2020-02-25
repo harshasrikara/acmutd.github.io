@@ -9,17 +9,15 @@
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
     integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-  <link rel="stylesheet" href="global-css/custom.css">
-  <link rel="stylesheet" href="global-css/font-awesome.min.css">
-  <script src="https://kit.fontawesome.com/35fb6f3e9a.js" crossorigin="anonymous"></script>
 
-  <title>Events</title>
+  <title>Labs</title>
 </head>
 
 <body>
 
+  <!-- Primary Navbar -->
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-    <a class="navbar-brand" href="/index.html">
+    <a class="navbar-brand" href="#">
       <img src="/global-assets/icon/acm-light.png" width="45" height="45" alt="">
     </a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
@@ -28,8 +26,8 @@
     </button>
     <div class="collapse navbar-collapse" id="navbarNavDropdown">
       <ul class="navbar-nav">
-        <li class="nav-item">
-          <a class="nav-link" href="/index.html">Welcome<span class="sr-only">(current)</span></a>
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Welcome<span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown"
@@ -42,7 +40,7 @@
             <a class="dropdown-item" href="/labs/">Labs</a>
           </div>
         </li>
-        <li class="nav-item active">
+        <li class="nav-item">
           <a class="nav-link" href="/events.html">Events</a>
         </li>
         <li class="nav-item">
@@ -88,78 +86,29 @@
     </div>
   </nav>
 
-  <div class="container-fluid">
-    <div class="jumbotron">
-      <h1 class="display-1">Welcome to ACM Events</h1>
-      <h2 class="lead">Each semester we design, plan and run several events to empower students in our community to
-        learn
-        more and engage with other like minded students</h2>
-      <hr class="my-4">
-      <a class="btn btn-primary btn-lg" href="#" role="button">Join our mailing list for regular updates</a>
+  <!-- Division Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="index.html">
+      <img src="/global-assets/icon/labs.png" width="45" height="45" alt="">
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+      aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="team.html">Team</a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="about.html">About</a>
+        </li>
+      </ul>
     </div>
-  </div>
-
-
-  <div class="container-fluid">
-    <div class="row">
-      <div class="col-sm-4">
-        <div class="card m-4">
-          <img src="/global-assets/events/cscareers.png" height="auto" width="100%">
-          <div class="card-body">
-            <h5 class="card-title">CS Careers Workshop</h5>
-            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-            <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter">Go somewhere</a>
-          </div>
-        </div>
-      </div>
-      <div class="col-sm-4">
-        <div class="card m-4">
-          <img src="/global-assets/events/interview.png" height="auto" width="100%">
-          <div class="card-body">
-            <h5 class="card-title">Interview Prep</h5>
-            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-            <a href="#" class="btn btn-primary">Go somewhere</a>
-          </div>
-        </div>
-      </div>
-      <div class="col-sm-4">
-        <div class="card m-4">
-          <img src="/global-assets/events/swe+acmfinal.png" height="auto" width="100%">
-          <div class="card-body">
-            <h5 class="card-title">Personal Website Workshop</h5>
-            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-            <a href="#" class="btn btn-primary">Go somewhere</a>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-
-
-  <!-- Modal - Not sure if we really need one, what additional content could we add? Perhaps if there was a slideshow or a recap video we can link it here -->
-  <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
-    aria-hidden="true">
-    <div class="modal-dialog modal-dialog-centered" role="document">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h5 class="modal-title" id="exampleModalCenterTitle">CS Careers Workshop</h5>
-
-          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-            <span aria-hidden="true">&times;</span>
-          </button>
-        </div>
-        <div class="modal-body">
-          <img src="/global-assets/events/cscareers.png" height="auto" width="100%">
-        </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-          <button type="button" class="btn btn-primary">Save changes</button>
-        </div>
-      </div>
-    </div>
-  </div>
-
-
+  </nav>
 
   <!-- Optional JavaScript -->
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
