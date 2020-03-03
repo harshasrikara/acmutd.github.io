@@ -18,7 +18,7 @@
 
   <!-- Primary Navbar -->
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-    <a class="navbar-brand" href="../index.html">
+    <a class="navbar-brand" href="../index.html" tabindex="0">
       <img src="../global-assets/icon/acm-light.png" width="45" height="45" alt="">
     </a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
@@ -36,9 +36,7 @@
           <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
             <a class="dropdown-item" href="../hackutd/">HackUTD</a>
             <a class="dropdown-item" href="../projects/">Projects</a>
-            <a class="dropdown-item" href="../ignite/">Ignite</a>
             <a class="dropdown-item" href="../education/">Education</a>
-            <a class="dropdown-item" href="../labs/">Labs</a>
           </div>
         </li>
         <li class="nav-item">
@@ -81,8 +79,8 @@
     </div>
   </nav>
 
-  <!-- Carousel -->
-  <div id="carouselExampleCaptions" class="carousel slide carousel-fade" data-ride="carousel" data-wrap="true">
+    <!-- Carousel -->
+  <div id="carouselExampleCaptions" class="carousel slide carousel-fade mb-5" data-ride="carousel" data-wrap="true">
     <ol class="carousel-indicators">
       <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
       <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
@@ -90,7 +88,7 @@
     </ol>
     <div class="carousel-inner">
       <div class="carousel-item active">
-        <img src="../global-assets/slideshow/team-hero1.jpg" class="d-block w-100 carousel-image" alt="...">
+        <img src="../global-assets/projects1.jpg" class="d-block w-100 img-fluid carousel-image" alt="...">
         <div class="carousel-caption d-none d-md-block">
           <h1 class="carousel-header">ACM Projects</h1>
           <p>ACM Projects is a semester-long guided projects initiative for those new to software development, teaching
@@ -123,31 +121,37 @@
     <!-- <h1>This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer. This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer. This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</h1> -->
   </div>
 
-  <div class="container-fluid m-5">
-    <h1 class="text-center m-5">About</h1>
+  <div class="container mt-5">
+    <div class="text-center mb-5">
+      <img src="../global-assets/icon/projects.png" width="20%">
+    </div>
+  </div>
 
-    <div class="row row-cols-1">
+  <div class="container-fluid">
+    <h1 class="text-center m-5" tabindex="1">About</h1>
+
+    <div class="row row-cols-1 m-5 d-flex align-items-center">
       <div class="col-md-6">
-        <img src="../global-assets/icon/projects.png" class="">
+        <img src="../global-assets/projects1.jpg" class="w-100">
       </div>
-      <div class="col-md-6">
+      <div class="col-md-6 mt-5">
+        <h1 class="mb-4">What is ACM Projects?</h1>
         <p>ACM Projects is designed to engage undergraduate students seeking to explore a collaborative software
           development environment. In this semester-long opportunity, these passionate and hard-working individuals come
           together in a team to create a unique, tangible app from scratch. Throughout the process, participants become
           familiar with modern tech stacks and tools used in the industry while guided by a project manager and an
           industry mentor. At the end of the ACM Projects experience, these students showcase their final product on
-          presentation night. ACM Projects is designed to engage undergraduate students seeking to explore a
-          collaborative software development environment. In this semester-long opportunity, these passionate and
-          hard-working individuals come together in a team to create a unique, tangible app from scratch. Throughout the
-          process, participants become familiar with modern tech stacks and tools used in the industry while guided by a
-          project manager and an industry mentor. At the end of the ACM Projects experience, these students showcase
-          their final product on presentation night.</p>
+          presentation night.</p>
+        <p>
+          Our division continually seeks to create a community where ideas can be heard, creativity can be expressed,
+          and determination can be rewarded.
+        </p>
       </div>
     </div>
   </div>
 
-  <div class="container-fluid m-5">
-    <h1 class="text-center mb-5">Explore our Projects</h1>
+  <div class="container-fluid">
+    <h1 class="text-center m-5" tabindex="2">Explore our Projects</h1>
 
     <div class="row row-cols-1">
 
@@ -157,14 +161,14 @@
             <img src="../global-assets/icon/projects.png" class="img-fluid img-thumbnail floating-icon">
           </div>
           <div class="col">
-            <h1>Project 1</h1>
-            <h4>Yohan Flores</h4>
+            <h1>Travel Buddy</h1>
+            <h4>Emily Lam</h4>
             <h5>Projects Participants</h5>
             <ul>
-              <li>Rachel Green</li>
-              <li>Monica Geller</li>
-              <li>Ross Geller</li>
-              <li>Joey Tribbiani</li>
+              <li>Nicole Rodrigues</li>
+              <li>MKiara Madeam</li>
+              <li>Sam Sangraula</li>
+              <li>Sreya Nagumalla</li>
             </ul>
             <a class="btn btn-primary btn-lg" href="#" role="button">Learn More</a>
           </div>
@@ -177,14 +181,14 @@
             <img src="../global-assets/icon/projects.png" class="img-fluid img-thumbnail floating-icon">
           </div>
           <div class="col">
-            <h1>Project 2</h1>
-            <h4>Jessie Luo</h4>
+            <h1>Easy Gift</h1>
+            <h4>Samuel Nitsch</h4>
             <h5>Projects Participants</h5>
             <ul>
-              <li>Jon Snow</li>
-              <li>Daenerys Targaryen</li>
-              <li>Robert Baratheon</li>
-              <li>Jaime Lannister</li>
+              <li>Kriti Matta</li>
+              <li>Shanmukha Bodpati</li>
+              <li>John Nguyen</li>
+              <li>Ali Momin</li>
             </ul>
             <a class="btn btn-primary btn-lg" href="#" role="button">Learn More</a>
           </div>
@@ -197,14 +201,114 @@
             <img src="../global-assets/icon/projects.png" class="img-fluid img-thumbnail floating-icon">
           </div>
           <div class="col">
-            <h1>Project 3</h1>
+            <h1>Focus Browser</h1>
+            <h4>Jack Sheehan</h4>
+            <h5>Projects Participants</h5>
+            <ul>
+              <li>Aayushi Choudary</li>
+              <li>Stuart Little</li>
+              <li>Vamika Chatlani</li>
+              <li>Yuvraj Thakur</li>
+            </ul>
+            <a class="btn btn-primary btn-lg" href="#" role="button">Learn More</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4 p-4">
+        <div class="row">
+          <div class="col">
+            <img src="../global-assets/icon/projects.png" class="img-fluid img-thumbnail floating-icon">
+          </div>
+          <div class="col">
+            <h1>To Toss or Not to Toss</h1>
+            <h4>Sahana Belatur</h4>
+            <h5>Projects Participants</h5>
+            <ul>
+              <li>Tisha Arora</li>
+              <li>Zach Foster</li>
+              <li>Abdul Rafai</li>
+              <li>Sohail Mohammad</li>
+            </ul>
+            <a class="btn btn-primary btn-lg" href="#" role="button">Learn More</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4 p-4">
+        <div class="row">
+          <div class="col">
+            <img src="../global-assets/icon/projects.png" class="img-fluid img-thumbnail floating-icon">
+          </div>
+          <div class="col">
+            <h1>Secure</h1>
+            <h4>Adham Kassem</h4>
+            <h5>Projects Participants</h5>
+            <ul>
+              <li>Ty Ponzo</li>
+              <li>Shivani Gandhi</li>
+              <li>Swathi Deivamani</li>
+              <li>Stacey Masi</li>
+            </ul>
+            <a class="btn btn-primary btn-lg" href="#" role="button">Learn More</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4 p-4">
+        <div class="row">
+          <div class="col">
+            <img src="../global-assets/icon/projects.png" class="img-fluid img-thumbnail floating-icon">
+          </div>
+          <div class="col">
+            <h1>Commune</h1>
+            <h4>Kendra Huang</h4>
+            <h5>Projects Participants</h5>
+            <ul>
+              <li>Swaraaj Bhattacharya</li>
+              <li>Trevor Tomer</li>
+              <li>Olimjon Nematov</li>
+              <li>Neha Rode</li>
+            </ul>
+            <a class="btn btn-primary btn-lg" href="#" role="button">Learn More</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4 p-4">
+        <div class="row">
+          <div class="col">
+            <img src="../global-assets/icon/projects.png" class="img-fluid img-thumbnail floating-icon">
+          </div>
+          <div class="col">
+            <h1>Simple Shop</h1>
+            <h4>Afrida Tasnim</h4>
+            <h5>Projects Participants</h5>
+            <ul>
+              <li>Rajmeet Juneja</li>
+              <li>Nivetha Narayanan</li>
+              <li>Rishi Chandna</li>
+              <li>Krithika Kannan</li>
+            </ul>
+            <a class="btn btn-primary btn-lg" href="#" role="button">Learn More</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4 p-4">
+        <div class="row">
+          <div class="col">
+            <img src="../global-assets/icon/projects.png" class="img-fluid img-thumbnail floating-icon">
+          </div>
+          <div class="col">
+            <h1>Shazam for Movies</h1>
             <h4>Aashish Sharma</h4>
             <h5>Projects Participants</h5>
             <ul>
-              <li>Tim Cook</li>
-              <li>Bill Gates</li>
-              <li>Satya Nadella</li>
-              <li>Mark Zuckerburg</li>
+              <li>Shreya Valaboju</li>
+              <li>Raghav Sriram</li>
+              <li>Jacob Dong</li>
+              <li>Elvina Almeida</li>
             </ul>
             <a class="btn btn-primary btn-lg" href="#" role="button">Learn More</a>
           </div>
@@ -217,14 +321,14 @@
             <img src="../global-assets/icon/projects.png" class="img-fluid img-thumbnail floating-icon">
           </div>
           <div class="col">
-            <h1>Project 4</h1>
+            <h1>Pocket Museum</h1>
             <h4>Sanjeev Penupala</h4>
             <h5>Projects Participants</h5>
             <ul>
-              <li>Tim Cook</li>
-              <li>Bill Gates</li>
-              <li>Satya Nadella</li>
-              <li>Mark Zuckerburg</li>
+              <li>Viswajith Rajagopalan</li>
+              <li>Soham Mukherjee</li>
+              <li>Saksham Sangraula</li>
+              <li>Bach Nguyen</li>
             </ul>
             <a class="btn btn-primary btn-lg" href="#" role="button">Learn More</a>
           </div>
@@ -237,14 +341,54 @@
             <img src="../global-assets/icon/projects.png" class="img-fluid img-thumbnail floating-icon">
           </div>
           <div class="col">
-            <h1>Project 5</h1>
-            <h4>Harsha Srikara</h4>
+            <h1>French Press</h1>
+            <h4>David Ochoa</h4>
             <h5>Projects Participants</h5>
             <ul>
-              <li>Me</li>
-              <li>Me Again</li>
-              <li>Me Too</li>
-              <li>Just Me</li>
+              <li>Fanny Dolisy</li>
+              <li>Ifrit Maruf</li>
+              <li>Angela Glass</li>
+              <li>Alex Lo</li>
+            </ul>
+            <a class="btn btn-primary btn-lg" href="#" role="button">Learn More</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4 p-4">
+        <div class="row">
+          <div class="col">
+            <img src="../global-assets/icon/projects.png" class="img-fluid img-thumbnail floating-icon">
+          </div>
+          <div class="col">
+            <h1>Safe Routes</h1>
+            <h4>Cady Baltz</h4>
+            <h5>Projects Participants</h5>
+            <ul>
+              <li>Deesha Kumbham</li>
+              <li>Leo Bala</li>
+              <li>Ishani Chowdhury</li>
+              <li>Priscilla Arinze</li>
+            </ul>
+            <a class="btn btn-primary btn-lg" href="#" role="button">Learn More</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4 p-4">
+        <div class="row">
+          <div class="col">
+            <img src="../global-assets/icon/projects.png" class="img-fluid img-thumbnail floating-icon">
+          </div>
+          <div class="col">
+            <h1>BillboARd</h1>
+            <h4>Christina Abraham</h4>
+            <h5>Projects Participants</h5>
+            <ul>
+              <li>Henry Kim</li>
+              <li>Vaibhav Sharma</li>
+              <li>Sudarshana Jagadeeshi</li>
+              <li>Stephen Wells</li>
             </ul>
             <a class="btn btn-primary btn-lg" href="#" role="button">Learn More</a>
           </div>
@@ -253,11 +397,56 @@
     </div>
   </div>
 
-
-
   <div class="container-fluid">
+    <h1 class="m-5 text-center" tabindex="3">Frequently Asked Questions</h1>
+    <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 mr-5 ml-5">
+      <div class="col p-4">
+        <h3>What is ACM Projects?</h3>
+        <p>ACM Projects is a semester-long guided projects initiative for those new to software development, teaching collaborative tools, new technologies, and core development principles complimentary to curriculum.</p>
+      </div>
+      <div class="col p-4">
+        <h3>When does ACM Projects take place?</h3>
+        <p>ACM Projects is a semester-long guided projects initiative for those new to software development, teaching collaborative tools, new technologies, and core development principles complimentary to curriculum.</p>
+      </div>
+      <div class="col p-4">
+        <h3>What is the application process like?</h3>
+        <p>The first step is to fill out our application consisting of general questions intended to give us insight into your previous experience. From these applications, we select the most promising candidates for one-on-one interviews. Based on the results of the interview, we will send out acceptances to the most qualified students.</p>
+      </div>
+      <div class="col p-4">
+        <h3>Do I need to have prior development experience?</h3>
+        <p>ACM Projects is designed for those new to software development. Although some experience is great, we're looking for passionate and committed candidates who have a desire to learn and grow in software development.</p>
+      </div>
+      <div class="col p-4">
+        <h3>How do I stand out during the application process?</h3>
+        <p>Be genuine! We want to see your passion for technology and desire to learn. We can only judge your experience and character based on what we see in the application, so fill all of the questions out! Leaving questions blank is a lost opportunity for us to learn more about you.</p>
+      </div>
+      <div class="col p-4">
+        <h3>How is ACM Projects structured?</h3>
+        <p>You will be placed into a team of five students with a project and a mentor. We will have weekly (and mandatory) build nights every Wednesday from 8:30 pm - 10:00 pm. This is time for you to work with your team, meet with your mentor and learn. Some build nights may include a short tech-related workshop designed to diversify your tech skills.</p>
+      </div>
+      <div class="col p-4">
+        <h3>What is the time commitment?</h3>
+        <p>The minimum time commitment is the 1.5 hours required for each weekly build night. Beyond this, you and your team may need extra time to complete your project so it's up to you to schedule the time amongst yourselves.</p>
+      </div>
+      <div class="col p-4">
+        <h3>What is a build night?</h3>
+        <p>ACM Projects is a semester-long guided projects initiative for those new to software development, teaching collaborative tools, new technologies, and core development principles complimentary to curriculum.</p>
+      </div>
+      <div class="col p-4">
+        <h3>What kind of projects are built?</h3>
+        <p>ACM Projects is a semester-long guided projects initiative for those new to software development, teaching collaborative tools, new technologies, and core development principles complimentary to curriculum.</p>
+      </div>
+      <div class="col p-4">
+        <h3>What happens after we finish our project?</h3>
+        <p>ACM Projects is a semester-long guided projects initiative for those new to software development, teaching collaborative tools, new technologies, and core development principles complimentary to curriculum.</p>
+      </div>
+    </div>
+  </div>
 
-    <h1 class="mt-5 text-center">Meet our Project Managers</h1>
+
+  <div style="background-color: lightgray;" class="container-fluid">
+
+    <h1 class="mt-5 text-center" tabindex="4">Meet our Project Managers</h1>
     <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4 row-cols-lg-5 m-5">
 
       <div class="col mb-4">
